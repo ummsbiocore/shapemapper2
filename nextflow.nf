@@ -52,7 +52,7 @@ output:
  path "*_flowchart.svg" ,optional:true  ,emit:g_2_outputFile44 
  path "*.pdf"  ,emit:g_2_outputFilePdf55 
 
-container 'quay.io/viascientific/shapemapper2:1.1.2'
+container 'quay.io/ummsbiocore/shapemapper2:1.1.2'
 
 when:
 !params.run_shapedance || (params.run_shapdance == "yes")
